@@ -18,7 +18,14 @@
                         <li><a href="/Home/About">О нас</a></li>
                         <li><a href="/Home/Index">Магазин</a></li>
                         <li><a href="/Home/Chip">Корзина</a></li>
-                        <li><a href="/Account/Login">Авторизация</a></li>
+                        @if (User.Identity.IsAuthenticated == false)
+                        {
+                            <li><a href="/Account/Login">Авторизация</a></li>
+                        }
+                        else
+                        {
+                            <li><a href="@Url.Action("Logoff", "Account")">Выход</a></li>
+                        }
                     </ul>
                 </li>
                 </li>
