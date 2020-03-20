@@ -1,0 +1,62 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Пример веб-страницы</title>
+    <link rel="stylesheet" href="~/Content/style.css">
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.js"></script>
+</head>
+<body>
+    <header class="headStyle">
+        <nav class="headMenu">
+            <ul>
+                <li>
+                <li class="textMenuStyle headMenuList">
+                    Меню
+                    <ul class="headMenuDrop">
+                        <li><a href="/Home/About">О нас</a></li>
+                        <li><a href="/Home/Index">Магазин</a></li>
+                        <li><a href="/Home/Chip">Корзина</a></li>
+                        <li><a href="/Account/Login">Авторизация</a></li>
+                    </ul>
+                </li>
+                </li>
+            </ul>
+        </nav>
+        <div class="headerLogo"></div>
+    </header>
+    <div class="midBoxImages">
+        <div class="midBoxImagesSizeWid">
+            <div class="boxImage" id="boxImage1"><a href="/Home/GtaV"><img src="~/Content/image/slider/1.jpg"></a></div>
+            <div class="boxImage" id="boxImage2"><a href="/Home/darksouls"><img src="~/Content/image/slider/2.jpg"></a></div>
+            <div class="boxImage" id="boxImage3"><a href="/Home/mordhau"><img src="~/Content/image/slider/3.jpg"></a></div>
+            <div class="boxImage" id="boxImage3"><img src="image/slider/1.jpg"></div>
+            <div class="boxImage" id="boxImage4"><img src="image/slider/1.jpg"></div>
+        </div>
+    </div>
+    <div class="midBox">
+        @RenderBody()
+        <div class="SideBarBox">
+            <div class="SideBarLinks">
+                <div class="SideBarLink"><a href="#">Страница в ВК</a></div>
+                <div class="SideBarLink"><a href="#">Страница в ВК</a></div>
+                <div class="SideBarLink"><a href="#">Страница в ВК</a></div>
+                <div class="SideBarLink"><a href="#">Страница в ВК</a></div>
+                <div class="SideBarLink"><a href="#">Страница в ВК</a></div>
+            </div>
+            <div class="SideBarPopular">
+                <div class="SideBarPopularGame">
+                    <a href="#">
+                        <img src="~/Content/image/fiol.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footerStyle">
+    </footer>
+    <script src="/Scripts/"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

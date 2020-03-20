@@ -1,0 +1,425 @@
+html, body {
+	background-color: #fff;
+	margin: 0 0 0;
+	min-height: 100%;
+	height: 1px;
+}
+p{
+	font-family: fantasy;
+}
+a{
+	text-decoration: none;
+	font-family: fantasy;
+	color: black;
+}
+.headStyle {
+	height: 100px;
+	width: 100%;
+	background-color: #ff6600;
+	margin-bottom: 40px;
+	border-radius: 0 0 50px 50px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.headMenu {
+	width: 250px;
+	height: 50%;
+	margin: 0 auto;
+	position: relative;
+	top:75%;
+	background-color: #ff6600;
+	border: solid 5px white;
+	border-radius: 30px 30px 10px 10px;
+	z-index: 10;
+}
+.headMenu ul{
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+}
+.headMenu a{
+	font-size: 20px;
+	background: #ff6600;
+	padding: 10px;
+	display: block;
+	transition: 0.5s;
+	border: solid 1px black;
+}
+.headStyle nav:hover{
+	background: rgba(0,0,0,1);
+	transition: 0.5s;
+}
+.headStyle a:hover{
+	background: rgba(0,0,0,1);
+	padding: 10px 0 10px 20px;
+}
+.headMenuList{
+	position: relative;
+	border-bottom: 10px solid transparent;
+}
+.headMenuDrop li:first-child a{
+	border-radius: 10px 10px 0 0;
+}
+.headMenuDrop li:last-child a{
+	border-radius: 0 0 10px 10px;
+}
+.headMenuDrop{
+	position: absolute;
+	width: 100%;
+	top: -9990px;
+	opacity: 0;
+}
+.headMenuList:hover .headMenuDrop{
+	opacity: 1;
+	top:40px;
+}
+.headerLogo{
+	background-color: white;
+	height: 70px;
+	width: 70px;
+	position: relative;
+	top: -60px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.midBoxImages {
+	width: 60%;
+	margin:0 auto;
+	height: 250px;
+	margin-bottom: 15px;
+	background-color: #ff6600;;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	overflow: hidden;
+}
+.midBoxImagesSizeWid{
+	width: 1920px;
+	height: 250px;
+}
+.boxImage{
+	border: solid 3px black;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	height: 200px;
+	width: 12%;
+	float: left;
+	margin-right: 10%;
+	margin-bottom: 30px;
+	position: relative;
+	left: 25px;
+	top: 20px;
+}
+.boxImage a{
+	height: 100%;
+	display: block;
+}
+.boxImage img {
+	width: 100%;
+	height: 200px;
+}
+#boxImage1 {
+	
+}
+#boxImage2 {
+	
+}
+#boxImage3 {
+	
+}
+#boxImage4 {
+	
+}
+.midBox  {
+	width: 60%;
+	margin: 0 auto;
+	background-color: #ff6600;
+	border-radius: 10px;
+	height: 180;
+	overflow: hidden;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.boxImageGame {
+	border: solid 3px black;
+	border-radius: 10px;
+	width: 150px;
+	margin-left: 10px;
+	margin-top: 10px; 
+	height: 225px;
+	float: left;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.boxImageGame img{
+	width: 100%;
+	height: 225px;
+}
+.priceGame {
+	border: solid 3px black;
+	background-color: orange;
+	border-radius: 10px;
+	width: 150px;
+	height: 65px;
+	overflow: hidden;
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	display: block;
+}
+.SideBarPopularGame img{
+	height: 50px;
+	width: 100%;
+}
+
+.priceGame a{
+	position: relative;
+	left: 30%;
+	top:30%;
+	font-size: 20px;
+	font-family: fantasy;
+}
+.priceGame:hover{
+	display: block;
+	font-size: 20px;
+	font-family: fantasy;
+	background-color: white;
+}
+.buyGame {
+	border: solid 3px black;
+	background-color: white;
+	border-radius: 10px;
+	width: 25%;
+	height: 15%;
+	overflow: hidden;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.buyGame p{
+	text-align: center;
+	font-size: 20px;
+	height: inherit;
+
+}
+.descripGame{
+	border: solid 3px black;
+	background-color: white;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 70%;
+	height: 220px;
+	overflow: hidden;
+	float: left;
+}
+.SideBarBox {
+	position: relative;
+	top: 30px;
+	height: auto;
+	margin-bottom: 50px;
+	margin-left: 20px;
+	width: 250px;
+	float: left;
+
+}
+.SideBarLinks{
+	width: 100%;
+	min-height: 125px;
+	background-color: white;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.SideBarLink{
+	width: 100%;
+	height: 25px;
+}
+.SideBarLink a{
+	position: relative;
+	left: 30%;
+	top: 2%;
+}
+.SideBarPopular{
+	width: 100%;
+	margin: 0 auto;
+	float: left;
+}
+.SideBarPopularGame{
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	float: left;
+	margin:0 auto 15px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.midBoxContent{
+	width: 70%;
+	margin-bottom: 40px;
+	height: auto;
+	float: left;
+
+}
+.contentBox{
+	border: solid 5px white;
+	width: 180px;
+	margin: 2%;
+	height: 330px;
+	background-color: white;
+	border-radius: 10px;
+	float: left;
+	margin-right: 4%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	position: relative;
+	left: 45px;
+	top: 20px;
+
+}
+.footerStyle{
+	background-color: #ff6600;
+	height: 100px;
+	margin-top:10px;
+	border-radius: 50px 50px 0 0;
+}
+
+.textMenuStyle{
+	font-family: fantasy;
+	font-size: 30px;
+	margin-top: 10px;
+	color: white;
+	text-align: center;
+	user-select: none;
+}
+
+.aboutMidBoxContent, .GameBuyBox, .GamePageBox{
+	background-color: white;
+	min-height: 400px;
+	width: 69%;
+	margin-left: 40px;
+	margin-top: 30px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	float: left;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.aboutMidBoxContent p{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.GameInChip{
+	border: 1px solid black;
+	min-height: 150px;
+	width: 90%;
+	position: relative;
+	left: 10px;
+	top: 10px;
+	float: left;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.GameInChipImage{
+	border: 1px solid black;
+	position: relative;
+	left: 15px;
+	top: 10px;
+	height: 130px;
+	width: 150px;
+	margin-right: 375px;
+	margin-bottom: 10px;
+	float: left;
+
+}
+.GameInChipImage img{
+	height: 130px;
+	width: 100%;
+}
+.GameInChipPrice{
+	border: 1px solid black;
+	float: left;
+	position: relative;
+	top: 10px;
+	left: 15px;
+	height: 50px;
+	width: 150px;
+	margin-bottom: 25px;
+}
+.GameInChipPrice p{
+	position: relative;
+	top: 13px;
+	left: 60px;
+	font-size: 20px;
+}
+.chipGameBuy{
+	border: 1px solid black;
+	border-radius: 20px;
+	float: left;
+	position: relative;
+	top: 10px;
+	height: 50px;
+	width: 150px;
+	margin-bottom: 25px;
+	margin-left: 25px;
+}
+.chipGameBuy:hover{
+	background-color: rgba(255,102,0,1);
+}
+.chipGameBuy a{
+	display: block;
+	font-size: 20px;
+	height: 100%;
+	position: relative;
+	top: 12px;
+	left: 35px;
+
+}
+
+.GamePageBoxImage{
+	position: relative;
+	left: 15px;
+	top: 10px;
+	height: 200px;
+	width: 170px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	float: left;
+}
+.GamePageBoxImage img{
+	height: 200px;
+	width: 170px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.GamePageBoxDesc{
+	margin-left: 10px;
+	position: relative;
+	left: 15px;
+	top: 10px;
+	min-height: 380px;
+	width: 71%;
+	margin-right: 15px;
+	margin-bottom: 30px;
+	float: left;
+}
+
+.GamePageBuy{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border: 1px solid black;
+	float: left;
+	position: relative;
+	top: 10px;
+	height: 50px;
+	width: 150px;
+	margin-bottom: 25px;
+	margin-left: 15px;
+}
+.GamePageBuy a{
+	display: block;
+	height: 100%;
+	font-size: 20px;
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+.Autorization-box {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    padding-left: 20px;
+    float: left;
+}
