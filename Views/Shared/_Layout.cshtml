@@ -15,16 +15,16 @@
                 <li class="textMenuStyle headMenuList">
                     Меню
                     <ul class="headMenuDrop">
-                        <li><a href="/Home/About">О нас</a></li>
-                        <li><a href="/Home/Index">Магазин</a></li>
-                        <li><a href="/Home/Chip">Корзина</a></li>
+                        <li><a href="/Home/About" style="color: white">О нас</a></li>
+                        <li><a href="/Home/Index" style="color: white">Магазин</a></li>
+                        <li><a href="/Home/Chip" style="color: white">Корзина</a></li>
                         @if (User.Identity.IsAuthenticated == false)
                         {
-                            <li><a href="/Account/Login">Авторизация</a></li>
+                            <li><a href="/Account/Login" style="color: white">Авторизация</a></li>
                         }
                         else
                         {
-                            <li><a href="@Url.Action("Logoff", "Account")">Выход</a></li>
+                            <li><a href="@Url.Action("Logoff", "Account")" style="color: white">Выход</a></li>
                         }
                     </ul>
                 </li>
